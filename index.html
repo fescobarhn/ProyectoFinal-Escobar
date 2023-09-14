@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simulador de Créditos</title>
+</head>
+<body>
+    <h2>Simulador de Créditos</h2>
+    <form id="creditForm">
+        <label for="monto">Monto del crédito:</label>
+        <input type="number" id="monto" required>
+        
+        <label for="plazo">Plazo (en meses):</label>
+        <input type="number" id="plazo" required>
+        
+        <input type="submit" value="Simular">
+    </form>
+    <div id="resultado"></div>
+
+    <!-- Incluyendo Lodash y nuestro archivo JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <script src="js/miarchivo.js"></script>
+</body>
+</html>
